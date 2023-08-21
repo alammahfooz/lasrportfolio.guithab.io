@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+
+@import 'statics';
+@import 'home';
+@import 'header';
+@import 'work';
+@import 'timeline';
+@import 'animation';
+@import  'services';
+@import  'testimonial';
+@import  'contact';
+@import 'footer';
+@import 'mediaquery.scss';
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $text2;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+}
+
+.disableBtn{
+    background-color: rgb(169, 221, 176) !important;
+    cursor: not-allowed !important;
+}
